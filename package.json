@@ -1,0 +1,25 @@
+{
+  "name": "aguila",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter nyan",
+    "start": "node index"
+  },
+  "author": "brian <larous25@hotmail.es>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "restify": "^4.3.0"
+  },
+  "engines": {
+    "node": "~7.0.0",
+    "npm": "3.0.0"
+  }
+}
